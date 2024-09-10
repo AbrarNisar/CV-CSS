@@ -1,0 +1,155 @@
+body {
+    display: block;
+    text-align: center;
+    background-color: #cde1ff;
+    font-size: 18px;
+}
+  
+nav {
+    background-color: lightgray;
+    font: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+
+footer {
+    background-color: lightgray;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+      
+.arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #232b2b;
+  }
+
+  /* Style h2 heading using google fonts and color */
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+
+/* img part done */
+.splash img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Style >=2 border properties of the horizontal rules */
+hr {
+    height: 3px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+
+/* Education, Honors, Skills, Experience, Projects Styling */
+
+.education, .honors_awards, .skills, .experience {
+    background-color: blanchedalmond;
+    color: black;
+    text-align: left;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid #f3e5ab;
+}
+
+
+/* Change style of unordered lists */
+ul {
+    font-style: italic;
+    font-size: 18px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    gap: 15px;
+  }
+  
+/* Set color for anchor link tags and remove underline */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* change color of hovering */
+a:hover {
+    color: darkgrey;
+}
+
+
+/* Project Cards */
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    text-align: center;
+}
+
+.card {
+    background-color: blanchedalmond;
+    outline-style: double;
+    outline-color: blanchedalmond;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card img {
+    width: 100%; 
+    max-width: 200px;
+    height: auto; 
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+
+/* Contact Page */
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+   
+}
+
+form {
+    font-family: monospace;
+    font-style: italic;
+}
+
+input {
+    color: #3b444b;
+}
+
+textarea {
+    color: #3b444b;
+}
